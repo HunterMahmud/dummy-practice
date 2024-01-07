@@ -132,32 +132,43 @@ nav a {
 .btn {
   text-align: center;
 }
-.edu-info, .ex-info {
-    width: 511px;
+.edu-info,
+.ex-info {
+  width: 511px;
 }
 
 /* footer styles  */
-
-.social > a{
+footer {
+  background: #fff8f3;
+}
+.social > a {
   margin-right: 10px;
 }
-.connect-des{
+.connect-des {
   max-width: 550px;
 }
-footer{
+.footer {
   display: flex;
   justify-content: space-between;
   margin: 50px 130px;
 }
-.message > input{
-   padding: 18px 230px 18px 30px;
-   margin-bottom: 10px;
+.message > input {
+  padding: 18px 230px 18px 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+background:  #FFF;
+  border: none;
 }
-.message > textarea{
+.message > textarea {
   padding: 18px 155px 18px 30px;
   margin-bottom: 10px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
 }
 
-.message > input, .message > textarea, .message > button{
-    display: block;
+.message > input,
+.message > textarea,
+.message > button {
+  display: block;
 }
