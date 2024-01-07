@@ -135,3 +135,29 @@ nav a {
 .edu-info, .ex-info {
     width: 511px;
 }
+
+/* footer styles  */
+
+.social > a{
+  margin-right: 10px;
+}
+.connect-des{
+  max-width: 550px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 130px;
+}
+.message > input{
+   padding: 18px 230px 18px 30px;
+   margin-bottom: 10px;
+}
+.message > textarea{
+  padding: 18px 155px 18px 30px;
+  margin-bottom: 10px;
+}
+
+.message > input, .message > textarea, .message > button{
+    display: block;
+}
