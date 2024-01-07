@@ -8,23 +8,23 @@
 /* shared styles */
 
 .btn-primary {
-    background-color: #fd6e0a;
-    color: white;
-    border-radius: 5px;
-    padding: 15px 50px;
-    border: 0;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .primary{
-    color: hsl(25, 98%, 52%);
-  }
+  background-color: #fd6e0a;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 50px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.primary {
+  color: hsl(25, 98%, 52%);
+}
 
 /* navbar related styles */
-.header{
-    background-color: #FFF8F3;
+.header {
+  background-color: #fff8f3;
 }
-.header{
+.header {
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
@@ -47,43 +47,91 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
-nav li{
-    margin-left: 40px;
+nav li {
+  margin-left: 40px;
 }
-nav a{
+nav a {
   text-decoration: none;
 }
-.banner{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 230px;
-    align-items: center;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 230px;
+  align-items: center;
 }
-.banner p{
-    max-width: 600px;
+.banner p {
+  max-width: 600px;
 }
-.banner img{
-    width: 500px;
-    height: 600px;
-    margin-right: 50px;
+.banner img {
+  width: 500px;
+  height: 600px;
+  margin-right: 50px;
 }
 
 /* main section style  */
 
-.about{
-    margin: 130px 230px;
-    padding:  150px 130px;
-    background-color: #FFF8F3;
-    border-radius: 10px;
+.about {
+  margin: 130px 230px;
+  padding: 150px 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
 }
-.about-title, .about-des{
-    text-align: center;
+.about-title,
+.about-des {
+  text-align: center;
 }
 
-.info{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.info {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* what i do section Styles */
+
+.what-i-do {
+  text-align: center;
+  margin: 0 350px;
+}
+.tech-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 130px 230px;
+  margin-top: 20px;
+}
+.skill-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.skills {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+
+/* summary resume style  */
+
+.resume-title {
+  text-align: center;
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.edu-ex {
+  display: flex;
+  padding: 0 180px;
+  gap: 20px;
+}
+.btn {
+  text-align: center;
+}
+.edu-info, .ex-info {
+    width: 511px;
 }
